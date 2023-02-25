@@ -1,9 +1,32 @@
 <html>
-    <head><title></title></head>
-    <body>
+    <head>
+      <script defer src="script.js"></script>
+    <style>
+      
+      body{
+        background-image: url('images/patrik.jfif');
+        background-size: 100% 100%;
+        margin = 0;
+        width=100vw;
+        height=100vh;
+        overflow: hidden;
+
+      }
+      #evil-button
+{
+  position : absolute;
+  white-space : nowrap;
+  font-size :0.rem;
+}
+    </style>
+ </head>
+ 
+ <body>
+
         <h3 id="choosewisely">so,</h3>
       <a href=""></a>  
-        <button>Am I Your Daddy?</button>
-        <button>Am I NOT Your Daddy?</button>
+        <button onclick="window.location.href='amiyourdaddy.html';">Am I Your Daddy?</button>
+     <!--  <button onclick="window.location.href='aminotyourdaddy.html';">Am I NOT Your Daddy?</button> -->
+     <button id="evil-button">You aren't my daddy!</button>
     </body>
 </html>
